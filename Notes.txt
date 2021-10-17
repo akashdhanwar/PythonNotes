@@ -1,0 +1,5 @@
+1) GETTING STARTED
+   VS Code install plugin - python
+   exit() used to exit python command line
+   
+   LECTURE 13
