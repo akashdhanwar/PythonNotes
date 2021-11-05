@@ -1,5 +1,20 @@
 1) GETTING STARTED
    VS Code install plugin - python
-   exit() used to exit python command line
-   
-   LECTURE 13
+   exit() used to exit python command line, ctrl+l to clear command line
+   For knowing more about a thing, go into python shell, dir(NAME) Ex- dir(list), dir(int), dir(str), dir(dict)
+   *dir(__builtins__) - for builtin functions like print(), sum(), len(), max()
+   Also for detailing of these results type help(str.FUNC_NAME)
+   list functions - append(Data), remove(Data), clear() - cleares the list, index(Data,fromIndex?,toIndex?), count(Number) to count no of times it came in list
+   str functions - upper(), lower()
+   dict functions - values(), keys()
+
+
+   Types in python are implicit/ automatically defined - String, Int, Float
+   List(Array of different types) - Store multiple objects. 
+   Range - for creating list of a particular range. Ex - list(range(1,10,2)) = [1,3,5,7,9]
+   Dictionary - key value - {"Marry":10.4}
+   Tuple - Like a list but inside {} - (10,20,30). Used for not changing values 
+   Tuple are immutable while List is mutable by append()
+
+
+   Lec - 30
