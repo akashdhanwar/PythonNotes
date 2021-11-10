@@ -8,13 +8,28 @@
    str functions - upper(), lower()
    dict functions - values(), keys()
 
-
-   Types in python are implicit/ automatically defined - String, Int, Float
+   DATA TYPES-
+   Types in python are implicit/ automatically defined - str, int, float, bool(True/False)
    List(Array of different types) - Store multiple objects. 
    Range - for creating list of a particular range. Ex - list(range(1,10,2)) = [1,3,5,7,9]
    Dictionary - key value - {"Marry":10.4}
-   Tuple - Like a list but inside {} - (10,20,30). Used for not changing values 
+   Tuple - Like a list but inside () - (10,20,30). Used for not changing values.
    Tuple are immutable while List is mutable by append()
+   Types can be checked by type(value) or isinstance(value,toCheck)
+
+   Conversions-
+   Tuple to List - list((20,10,30))
+   List to Tuple - tuple([1,2,3])
+   List to Dictionary - dict([["",""],["",""]])
+
+   FUNCTIONS-
+   def funcName(parameter):
+   ----functionBody after indentation
+   ----return
+
+   If no return statement then function returns 'None' implicitly. print() will also return None, so we must return something
+   Conditional 'if' 'else' 'elif' - Can be used with 'and' and 'or'
 
 
-   Lec - 30
+   Lec - 46
+   
