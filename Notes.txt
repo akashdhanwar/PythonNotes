@@ -41,5 +41,9 @@
        print("Hello")
    While loops can use break nd continue
 
-   Lec - 59
+   LIST COMPREHENSIONS - 
+   Skip using decimals
+
+
+   Lec - 64
    
