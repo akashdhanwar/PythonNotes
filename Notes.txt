@@ -2,11 +2,11 @@
    VS Code install plugin - python
    exit() used to exit python command line, ctrl+l to clear command line
    For knowing more about a thing, go into python shell, dir(NAME) Ex- dir(list), dir(int), dir(str), dir(dict)
-   *dir(__builtins__) - for builtin functions like print(), sum(), len(), max()
+   *dir(__builtins__) - for builtin functions like print(), sum(), len(), max(), round(), isinstance()
    Also for detailing of these results type help(str.FUNC_NAME)
    list functions - append(Data), remove(Data), clear() - cleares the list, index(Data,fromIndex?,toIndex?), count(Number) to count no of times it came in list
-   str functions - upper(), lower()
-   dict functions - values(), keys()
+   str functions - upper(), lower(), capitalize(), replace()
+   dict functions - values(), keys(), items()
 
    DATA TYPES-
    Types in python are implicit/ automatically defined - str, int, float, bool(True/False)
@@ -16,20 +16,30 @@
    Tuple - Like a list but inside () - (10,20,30). Used for not changing values.
    Tuple are immutable while List is mutable by append()
    Types can be checked by type(value) or isinstance(value,toCheck)
-
    Conversions-
    Tuple to List - list((20,10,30))
    List to Tuple - tuple([1,2,3])
-   List to Dictionary - dict([["",""],["",""]])
+   List to Dictionary - dict( [["",""],["",""]])
 
    FUNCTIONS-
    def funcName(parameter):
    ----functionBody after indentation
    ----return
-
    If no return statement then function returns 'None' implicitly. print() will also return None, so we must return something
    Conditional 'if' 'else' 'elif' - Can be used with 'and' and 'or'
 
+   INPUT-
+   input("Enter temperature") and store in a variable, it takes string
+   We can typecast using float(input(""))
+   Formatting string - "Hello %s" % var_name. %s will be replaced by var_name. OR in python3.6 - f"Hello {var_name}"
+                        Multiple formatting case - "Hello %s %s" % (var1, var2). OR f"Hello {name} {surname}"
 
-   Lec - 46
+   LOOPS-
+   for temp in temps:
+       print(round(temp))
+   while a>1:
+       print("Hello")
+   While loops can use break nd continue
+
+   Lec - 59
    
