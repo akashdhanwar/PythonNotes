@@ -42,8 +42,11 @@
    While loops can use break nd continue
 
    LIST COMPREHENSIONS - 
-   Skip using decimals
+   We can perform operation on list by using [temp/10 for temp in temps if temp>50] in one line
+   For elif [temp/10 if temp>50 else 0 for temp in temps], condiition in last
 
+   
+   
 
-   Lec - 64
+   Lec - 68
    
