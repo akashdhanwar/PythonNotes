@@ -2,11 +2,12 @@
    VS Code install plugin - python
    exit() used to exit python command line, ctrl+l to clear command line
    For knowing more about a thing, go into python shell, dir(NAME) Ex- dir(list), dir(int), dir(str), dir(dict)
-   *dir(__builtins__) - for builtin functions like print(), sum(), len(), max(), round(), isinstance()
+   *dir(__builtins__) - for builtin functions like print(), sum(), len(), max(), round(), isinstance(), sorted()
    Also for detailing of these results type help(str.FUNC_NAME)
    list functions - append(Data), remove(Data), clear() - cleares the list, index(Data,fromIndex?,toIndex?), count(Number) to count no of times it came in list
    str functions - upper(), lower(), capitalize(), replace(), startswith(), join() - "-".join(list)
    dict functions - values(), keys(), items()
+
 
    DATA TYPES-
    Types in python are implicit/ automatically defined - str, int, float, bool(True/False)
@@ -21,6 +22,7 @@
    List to Tuple - tuple([1,2,3])
    List to Dictionary - dict( [["",""],["",""]])
 
+
    FUNCTIONS-
    def funcName(parameter):
    ----functionBody after indentation
@@ -28,11 +30,18 @@
    If no return statement then function returns 'None' implicitly. print() will also return None, so we must return something
    Conditional 'if' 'else' 'elif' - Can be used with 'and' and 'or'
 
+   Keyword arguments are used to pass selected value in any order Ex - funcName(b=5, a =6) to def funcName(a,b=5)
+   Note that Default argument cannot be before non default argument in function definition
+   funcName(*args) - like var arg, multiple parameters. Creates and Returns a tuple
+   funcName(**kargs) - 
+
+
    INPUT-
    input("Enter temperature") and store in a variable, it takes string
    We can typecast using float(input(""))
    Formatting string - "Hello %s" % var_name. %s will be replaced by var_name. OR in python3.6 - f"Hello {var_name}"
                         Multiple formatting case - "Hello %s %s" % (var1, var2). OR f"Hello {name} {surname}"
+
 
    LOOPS-
    for temp in temps:
@@ -48,5 +57,5 @@
    
    
 
-   Lec - 68
+   Lec - 74
    
