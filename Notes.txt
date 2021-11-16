@@ -9,7 +9,7 @@
    dict functions - values(), keys(), items()
 
 
-   DATA TYPES-
+2) DATA TYPES-
    Types in python are implicit/ automatically defined - str, int, float, bool(True/False)
    List(Array of different types) - Store multiple objects. 
    Range - for creating list of a particular range. Ex - list(range(1,10,2)) = [1,3,5,7,9]
@@ -23,7 +23,7 @@
    List to Dictionary - dict( [["",""],["",""]])
 
 
-   FUNCTIONS-
+3) FUNCTIONS-
    def funcName(parameter):
    ----functionBody after indentation
    ----return
@@ -32,30 +32,55 @@
 
    Keyword arguments are used to pass selected value in any order Ex - funcName(b=5, a =6) to def funcName(a,b=5)
    Note that Default argument cannot be before non default argument in function definition
-   funcName(*args) - like var arg, multiple parameters. Creates and Returns a tuple
-   funcName(**kargs) - 
+   funcName(*args) - like var arg, multiple parameters. Creates and Returns a tuple - funcName(1,2,3,4,5) - return tuple
+   funcName(**kargs) - keyword arguments - funcName(a=3,b=4) - returns dictionary
 
 
-   INPUT-
+4) INPUT-
    input("Enter temperature") and store in a variable, it takes string
    We can typecast using float(input(""))
    Formatting string - "Hello %s" % var_name. %s will be replaced by var_name. OR in python3.6 - f"Hello {var_name}"
                         Multiple formatting case - "Hello %s %s" % (var1, var2). OR f"Hello {name} {surname}"
 
 
-   LOOPS-
+5) LOOPS-
    for temp in temps:
        print(round(temp))
    while a>1:
        print("Hello")
    While loops can use break nd continue
 
-   LIST COMPREHENSIONS - 
+6) LIST COMPREHENSIONS - 
    We can perform operation on list by using [temp/10 for temp in temps if temp>50] in one line
    For elif [temp/10 if temp>50 else 0 for temp in temps], condiition in last
 
    
+7) FILE PROCESSING-
+   Reading - myfile = open("pathOfFile.txt"), print(myfile.read()) OR open("pathOfFile.txt","r")
+   Closing - myfile.close()
+   
+   OR using with (Better) auto closes
+   with open("pathOfFile.txt") as myfile:
+   ----content = myfile.read()
+
+   Writing - with open("pathOfFile.txt","w") as myfile:
+   ----myfile.write("Data \n Data")
+   ----myfile.write("\n Data")
+
+   Appending data to file - with open("pathOfFile.txt","a") as myfile:
+                            ----myfile.write("Data")
+                            Allows only writing
+                            For reading at same time, use "a+"
+                            Use myfile.seek(0) to put cursor to start of file since append starts cursor from last
+
+   Note - 'x' does not creates a file if it exists for Writing
+          'a' for appending
+
+
+8) MODULES-
    
 
-   Lec - 74
+
+
+   Lec - 86
    
