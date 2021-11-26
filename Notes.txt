@@ -77,10 +77,33 @@
           'a' for appending
 
 
-8) MODULES-
+8) MODULES/ Bunch of modules/ packages-
+   import sys
+   sys.builtin_module_names -   This will give all module names. Ex - time, os
+   sys.prefix               -   Directory path where these are stored
+
+   time is a builtin module written in C
+   os module is standard python module find in lib> python3.7> .py files as modules 
+   we can check a file path by os.path.exists('path')   
+
+   import time
+   dir(time)    -   Ex- time.sleep(time)
+
+   Third party modules - like for csv
+   pip - to install a third party library. Ex- pip3 install pandas - data analytics library
+   data = pandas.read_csv("path of file")
+   print(data.mean()) or data.mean()["st1"]
+
+9) PANDAS WITH CSV EXCEL and JSON
    
 
 
 
-   Lec - 86
+
+
+
+
+
+
+   Lec - 90
    
