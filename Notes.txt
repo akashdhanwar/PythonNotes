@@ -73,7 +73,7 @@
                             For reading at same time, use "a+"
                             Use myfile.seek(0) to put cursor to start of file since append starts cursor from last
 
-   Note - 'x' does not creates a file if it exists for Writing
+   Note - 'x' Creates a new file. If file already exists, it throws error
           'a' for appending
 
 
