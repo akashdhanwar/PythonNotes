@@ -90,7 +90,7 @@
    dir(time)    -   Ex- time.sleep(time)
 
    Third party modules - like for csv
-   pip - to install a third party library. Ex- pip3 install pandas - data analytics library
+   pip - to install a third party library. Ex- pip3 install pandas - data structure providing and data analysis library/tool
    data = pandas.read_csv("path of file")
    print(data.mean()) or data.mean()["st1"]
 
