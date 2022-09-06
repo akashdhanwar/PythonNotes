@@ -1,0 +1,5 @@
+Introduction-
+    Designed for easy to use and learn code 
+    Used for Automation, ML and Data Science, Web Development(Django, Flask)(Blobby and Dash)
+    Anaconda App  ----> anaconda-navigator
+    Setup Jupyter ----> jupyter notebook --generate-config, 

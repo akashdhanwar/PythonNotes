@@ -1,0 +1,16 @@
+Introduction                -   Python2 vs Python3, How to Approach 
+Python Setup                -   Installation, Environment, Jupyter, Resources, Github
+Object and Data Structures  -   Numbers, Strings, Lists, Dictionaries, Tuples, Files, Sets, Booleans
+Comparison Operators        -   Basic, Chained
+Statements                  -   If, elif, else. For, while, range(). List Comprehensions
+Methods and functions       -   Methods, Functions, Lambda expressions, Nested statements, Scope
+First Milestone Project     -   Game with python 
+OOP                         -   Object, Classes, Methods, Inheritance, Special Methods
+Errors, Exception Handling  -   Errors, Exceptions, try, except, finally 
+Second Milestone Project    -   More complex game
+Modules and Packages        -   Create and Install Modules, Explore Python Ecosystem
+Built-in Functions          -   map, reduce, filter, zip, enumerate, all and any, complex 
+Decorators 
+Generators                  -   Iteration vs Generation, Creating Generators 
+Capstone Project 
+Advanced Python Concept
